@@ -1,0 +1,25 @@
+{
+  "name": "find-a-practitioner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evieperren/find-a-practitioner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evieperren/find-a-practitioner/issues"
+  },
+  "homepage": "https://github.com/evieperren/find-a-practitioner#readme",
+  "dependencies": {
+    "@simplyhealth/component-library": "^5.3.1"
+  }
+}
