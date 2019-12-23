@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "node-sass src/scss/styles.scss src/main.css",
+    "dev": "node-sass src/scss/styles.scss src/main.css --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   },
   "homepage": "https://github.com/evieperren/find-a-practitioner#readme",
   "dependencies": {
-    "@simplyhealth/component-library": "^5.3.1"
+    "@simplyhealth/component-library": "^5.3.1",
+    "mongo": "^0.1.0",
+    "node-sass": "^4.13.0"
   }
 }
